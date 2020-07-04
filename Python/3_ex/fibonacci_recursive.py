@@ -20,7 +20,7 @@ def recur_fibonacci(k):
     if k < 2:
         return k
     else:
-        return recur_fibonacci(k-1) + recur_fibonacci(k-2)
+        return recur_fibonacci(k - 1) + recur_fibonacci(k - 2)
 
 initial_time = time.time()
 Fbn = recur_fibonacci(n)
